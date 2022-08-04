@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MultiTool\Source.csproj" />
+    <ProjectReference Include="..\MultiTool\MultiTool.csproj" />
   </ItemGroup>
 
 </Project>

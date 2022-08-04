@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Source", "MultiTool\Source.csproj", "{611F5E90-546D-412D-AB6E-0C59C9CB5BDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiTool", "MultiTool\MultiTool.csproj", "{611F5E90-546D-412D-AB6E-0C59C9CB5BDB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{98FD3B64-A5DA-424D-8A00-999243253584}"
 EndProject
