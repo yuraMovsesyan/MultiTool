@@ -186,9 +186,10 @@ static public class Calculator
         //2(2+2) -> 2*(2+2)
         for (int i = tokens.Count - 2; i >= 0; i--)
         {
-            if (tokens[i].TypeToken == Token.Type.NUMBER && tokens[i+1].Value == "(")
+            if (tokens[i].TypeToken == Token.Type.NUMBER && tokens[i+1].Value == "("
+            ||  tokens[i+1].TypeToken == Token.Type.NUMBER && tokens[i].Value == ")")
             {
-                tokens.Insert(i, new Token("*", Token.Type.OPERATION));
+                tokens.Insert(i+1, new Token("*", Token.Type.OPERATION));
             }
         }
 
